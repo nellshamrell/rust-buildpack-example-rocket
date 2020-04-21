@@ -9,7 +9,7 @@ use rocket::{self, get, routes};
 /// Declare a handler.
 #[get("/")]
 fn index() -> &'static str {
-    "Hello, world!"
+    "Hello, universe!"
 }
 
 /// Start our server.
